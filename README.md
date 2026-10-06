@@ -1,30 +1,30 @@
 # Learning Management System (LMS)
 
-A full-stack Learning Management System designed to organize courses, lessons, enrollments and student progress.
+Système de gestion de l’apprentissage permettant d’organiser les cours, les leçons, les inscriptions et le suivi de la progression des étudiants.
 
-## Overview
+## Présentation
 
-The project follows a separated frontend/backend architecture and provides the foundation for an online learning platform.
+Ce projet suit une architecture frontend/backend séparée et constitue la base d’une plateforme d’apprentissage en ligne.
 
-## Features
+## Fonctionnalités
 
-- Course and lesson management
-- Student enrollment management
-- Student progress tracking
-- User management
-- Backend API integration
-- Database-backed application
-- Frontend and backend separation
+- Gestion des cours et des leçons
+- Gestion des inscriptions des étudiants
+- Suivi de la progression des étudiants
+- Gestion des utilisateurs
+- Intégration avec une API backend
+- Application connectée à une base de données
+- Séparation du frontend et du backend
 
 ## Architecture
 
 ```
 lms/
-├── frontend/   # Client-side application
-└── backend/    # Laravel/PHP backend
+├── frontend/   # Application côté client
+└── backend/    # Backend Laravel/PHP
 ```
 
-## Tech Stack
+## Technologies utilisées
 
 - JavaScript
 - React
@@ -32,10 +32,10 @@ lms/
 - Laravel
 - MySQL
 - Vite
-- REST API
+- API REST
 - Git / GitHub
 
-## Getting Started
+## Installation
 
 ### Backend
 
@@ -48,13 +48,13 @@ php artisan serve
 
 ### Frontend
 
-Follow the frontend package instructions and start the development server from the `frontend/` directory.
+Consulter les instructions du dossier `frontend/` puis lancer le serveur de développement depuis ce dossier.
 
-> **Note:** Configure your local environment variables and database credentials before running the application.
+> **Remarque :** configurer les variables d’environnement et les identifiants de la base de données avant de lancer l’application.
 
-## Author
+## Auteur
 
 **Marouane El Khayati**  
-Full Stack Web Developer
+Développeur Web Full Stack
 
 [GitHub](https://github.com/marouanex06)
